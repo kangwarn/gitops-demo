@@ -6,7 +6,7 @@ metadata:
     app: www-deploy
   name: www-deploy
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: www-deploy
